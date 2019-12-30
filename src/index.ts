@@ -175,7 +175,7 @@ function setArrayElements (
     inttype?: string
 ) {
   const name = values.element
-  newElements.push(getApiSuccessElement(`{Object[]} ${name} ${name}`))
+  newElements.push(getApiSuccessElement(`{Array} ${name} ${name}`))
   setInterfaceElements.call(this, matchedInterface, filename, newElements, values, name)
 }
 /**
@@ -461,7 +461,7 @@ function getPropTypeEnum (prop: PropertySignature): PropType {
 }
 
 function getPropLabel (typeEnum: PropType, propTypeName: string): string {
-  if (typeEnum === PropType.Array) return 'Object[]'
+  if (typeEnum === PropType.Array) return 'Array'
   if (typeEnum === PropType.Object) return 'Object'
   if (typeEnum === PropType.Enum) return 'Enum'
 

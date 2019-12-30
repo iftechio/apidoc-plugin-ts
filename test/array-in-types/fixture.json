@@ -21,7 +21,7 @@
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "Object[]",
+            "type": "Array",
             "optional": false,
             "field": "squareConfigs",
             "description": "<p>squareConfigs</p>"
@@ -71,7 +71,7 @@
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "Object[]",
+            "type": "Array",
             "optional": false,
             "field": "squareConfigs",
             "description": "<p>squareConfigs</p>"

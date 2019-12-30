@@ -21,7 +21,7 @@
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "Object[]",
+            "type": "Array",
             "optional": false,
             "field": "squares",
             "description": "<p><code>squares</code></p>"

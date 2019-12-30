@@ -24,7 +24,7 @@
           },
           {
             "group": "Success 200",
-            "type": "Object[]",
+            "type": "Array",
             "optional": false,
             "field": "picks",
             "description": "<p><code>picks</code></p>"
@@ -515,7 +515,7 @@
           },
           {
             "group": "Success 200",
-            "type": "Object[]",
+            "type": "Array",
             "optional": false,
             "field": "skills",
             "description": "<p><code>skills</code> - An array of ISkill interfaces</p>"
